@@ -1,1 +1,1 @@
-docker run --rm -it -p 8192:8192 -v `pwd`/config.yml:/opt/config/config.yml -v `pwd`/notebooks:/opt/notebooks/ polynote/polynote:latest --config /opt/cfig/config.yml
+docker run --rm -it -p 8192:8192 -v $PWD/config.yml:/opt/config/config.yml -v $PWD/notebooks:/opt/notebooks/ ml_pipe/polynote:latest --config /opt/config/config.yml
